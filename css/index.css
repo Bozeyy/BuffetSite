@@ -1,0 +1,105 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, li, ul, ol, span, div, input, textarea, select, button, label, form, table, tr, td, th, tbody, thead, tfoot, img, article, aside, footer, header, nav, section, blockquote, pre, code, address, dl, dt, dd, figure, figcaption, fieldset, legend, details, summary, main, canvas, video, audio, iframe, embed, object, param, source, track, menu, menuitem, summary, progress, meter, output, details, summary, main, canvas, video, audio, iframe, embed, object, param, source, track, menu, menuitem, summary, progress, meter, output {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #f3f3f3;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+#visual {
+    height: 100%;
+    width: 100%;
+    filter: blur(1em);
+    position: absolute;
+    z-index: 1;
+}
+
+main {
+    z-index: 2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(131, 131, 131, 0.142);
+    height: 15em;
+    width: 25em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+}
+
+.content hr {
+    background-color: #f3f3f3;
+    width: 60%;
+}
+
+#title {
+    color: orange;
+}
+
+#site {
+    color: #f3f3f3;
+}
+
+.title {
+    display: flex;
+}
+
+.title h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+}
+
+
+.button-87 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
